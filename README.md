@@ -22,4 +22,15 @@ Running 30s test @ http://0.0.0.0:9000/
   11577227 requests in 30.07s, 1.46GB read
 Requests/sec: 384945.78
 Transfer/sec:     49.56MB
+```  
+#### Finatra
 ```
+Running 30s test @ http://0.0.0.0:9000
+  12 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     6.33ms   13.42ms 483.41ms   91.26%
+    Req/Sec    15.33k     4.61k   40.90k    71.85%
+  5367972 requests in 30.10s, 706.46MB read
+Requests/sec: 178354.66
+Transfer/sec:     23.47MB
+```  
