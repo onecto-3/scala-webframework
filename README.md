@@ -34,3 +34,14 @@ Running 30s test @ http://0.0.0.0:9000
 Requests/sec: 178354.66
 Transfer/sec:     23.47MB
 ```  
+#### scalatra
+```
+Running 30s test @ http://0.0.0.0:9000
+  12 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.08ms   25.17ms 652.71ms   97.73%
+    Req/Sec     9.02k     3.04k   25.23k    76.50%
+  3222987 requests in 30.08s, 470.27MB read
+Requests/sec: 107134.98
+Transfer/sec:     15.63MB
+```  
