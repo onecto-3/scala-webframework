@@ -45,3 +45,14 @@ Running 30s test @ http://0.0.0.0:9000
 Requests/sec: 107134.98
 Transfer/sec:     15.63MB
 ```  
+#### Akka
+```
+Running 30s test @ http://0.0.0.0:9000/
+  12 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     5.88ms   35.75ms 981.81ms   99.06%
+    Req/Sec    12.48k     2.93k   42.90k    83.80%
+  4347115 requests in 30.09s, 638.44MB read
+Requests/sec: 144452.89
+Transfer/sec:     21.22MB
+```  
